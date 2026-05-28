@@ -10,7 +10,7 @@ import Testimonials from "@/components/sections/Testimonials";
 import InsuranceCTA from "@/components/sections/InsuranceCTA";
 
 export const metadata: Metadata = {
-  title: "Best Piles Hospital in Wakad Pune | Laser Piles Treatment | Sunrise Piles Hospital",
+  title: "Piles, Fissure & Fistula Treatment in Wakad Pune | Sunrise Piles Hospital",
   description:
     "Sunrise Piles Hospital – Best piles treatment in Wakad, Pune. Painless laser surgery for Piles, Fissure & Fistula. NABH accredited. 5000+ patients. No cuts, no stitches. Same-day discharge. Call +91 9096965217.",
   alternates: {
