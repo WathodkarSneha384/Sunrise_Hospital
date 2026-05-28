@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
 import ScrollToTopButton from "@/components/ScrollToTopButton";
 import GoogleAnalytics from "@/components/GoogleAnalytics";
-import { APPLE_TOUCH_ICON, FAVICON_PNG } from "@/lib/site";
+import { APPLE_TOUCH_ICON, FAVICON_ICO, FAVICON_PNG } from "@/lib/site";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -63,10 +63,10 @@ export const metadata: Metadata = {
   },
   icons: {
     icon: [
+      { url: FAVICON_ICO, sizes: "any" },
       { url: FAVICON_PNG, type: "image/png", sizes: "32x32" },
-      { url: FAVICON_PNG, type: "image/png", sizes: "16x16" },
     ],
-    shortcut: FAVICON_PNG,
+    shortcut: FAVICON_ICO,
     apple: [{ url: APPLE_TOUCH_ICON, type: "image/png", sizes: "180x180" }],
   },
 };
@@ -78,11 +78,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className={`${montserrat.variable} h-full`}>
-      <head>
-        <link rel="icon" href={FAVICON_PNG} type="image/png" sizes="32x32" />
-        <link rel="shortcut icon" href={FAVICON_PNG} type="image/png" />
-        <link rel="apple-touch-icon" href={APPLE_TOUCH_ICON} sizes="180x180" />
-      </head>
       <body className="min-h-full flex flex-col antialiased font-[family-name:var(--font-montserrat)]">
         <GoogleAnalytics />
         <Navbar />
