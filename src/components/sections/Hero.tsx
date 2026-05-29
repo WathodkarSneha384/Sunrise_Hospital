@@ -16,9 +16,8 @@ const hospitalImages = [
 const features = [
   "NABH Certified",
   "Insurance Cashless",
-  "45-min Procedure",
-  "Same-day Discharge",
-  "No Cuts · No Stitches",
+  "15-min Procedure",
+  "No Stitches",
 ];
 
 const heroStats = [

@@ -148,20 +148,31 @@ export default function Testimonials() {
             title="What Our"
             highlight="Patients Say"
           />
-          <div className="flex justify-center -mt-6 mb-6">
-          <div className="inline-flex items-center gap-3 bg-[var(--primary-light)] border border-[var(--border)] rounded-2xl px-6 py-3">
-            <div className="flex gap-0.5">
-              {[1,2,3,4,5].map(s => (
-                <svg key={s} className="w-5 h-5 text-amber-400" fill="currentColor" viewBox="0 0 20 20">
-                  <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
-                </svg>
-              ))}
+          <div className="flex justify-center -mt-6 mb-6 px-1">
+            <div className="w-full max-w-xs sm:max-w-none sm:w-auto bg-[var(--primary-light)] border border-[var(--border)] rounded-2xl px-4 py-3 sm:px-6">
+              <div className="flex flex-col items-center gap-2.5 sm:flex-row sm:gap-3 sm:justify-center">
+                <div className="flex items-center gap-2 sm:gap-3">
+                  <div className="flex gap-0.5 shrink-0">
+                    {[1, 2, 3, 4, 5].map((s) => (
+                      <svg key={s} className="w-4 h-4 sm:w-5 sm:h-5 text-amber-400" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                      </svg>
+                    ))}
+                  </div>
+                  <div className="hidden sm:block h-6 w-px bg-[var(--border)] shrink-0" />
+                  <div className="flex items-baseline gap-1 shrink-0">
+                    <span className="font-bold text-[var(--navy)] text-base sm:text-lg leading-none">4.9</span>
+                    <span className="text-slate-500 text-xs sm:text-sm">/ 5</span>
+                  </div>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="text-slate-600 text-xs sm:text-sm text-center sm:text-left">
+                    <strong className="text-[var(--navy)] font-bold">200+</strong> Google Reviews
+                  </span>
+                  <GoogleIcon />
+                </div>
+              </div>
             </div>
-            <div className="h-6 w-px bg-[var(--border)]" />
-            <span className="font-bold text-[var(--navy)] text-lg">4.9</span>
-            <span className="text-slate-500 text-sm">/ 5 · <strong>200+ Google Reviews</strong></span>
-            <GoogleIcon />
-          </div>
           </div>
         </RevealOnScroll>
 
@@ -204,7 +215,7 @@ export default function Testimonials() {
                 onClick={() => goTo(i)}
                 className={`rounded-full transition-all duration-300 ${
                   i === currentIndex
-                    ? "bg-green-900 w-8 h-3"
+                    ? "bg-[var(--primary)] w-8 h-3"
                     : "bg-gray-300 hover:bg-gray-400 w-3 h-3"
                 }`}
                 aria-label={`Go to review ${i + 1}`}

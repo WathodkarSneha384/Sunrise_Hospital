@@ -16,7 +16,7 @@ const montserrat = Montserrat({
 
 export const metadata: Metadata = {
   title: {
-    default: "Piles, Fissure & Fistula | Sunrise Piles Hospital, Wakad Pune",
+    default: "Sunrise Piles Hospital Pune | Best Piles Fissure Fistula Laser Treatment in Wakad, Pune",
     template: "%s | Sunrise Piles Hospital Pune",
   },
   description:
@@ -40,13 +40,13 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_IN",
     siteName: "Sunrise Piles Hospital",
-    title: "Piles, Fissure & Fistula Treatment | Sunrise Piles Hospital, Wakad Pune",
+    title: "Sunrise Piles Hospital Pune | Best Piles Fissure Fistula Laser Treatment in Wakad, Pune",
     description:
       "Expert Laser Treatment for Piles, Fissure & Fistula. NABH Accredited. 5000+ patients treated. Daycare procedures. No cuts, no stitches.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Piles, Fissure & Fistula Treatment | Sunrise Piles Hospital, Pune",
+    title: "Sunrise Piles Hospital Pune | Best Piles Fissure Fistula Laser Treatment in Wakad, Pune",
     description:
       "Advanced Laser Proctology Centre in Wakad, Pune. 5000+ patients treated. NABH Accredited.",
   },
