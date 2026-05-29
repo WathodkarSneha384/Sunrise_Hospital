@@ -1,6 +1,11 @@
 {
   "redirects": [
     {
+      "source": "/blog.html",
+      "destination": "https://sunrisepileshospital.com/blog/",
+      "permanent": true
+    },
+    {
       "source": "/:path*",
       "destination": "https://sunrisepileshospital.com/:path*",
       "permanent": true

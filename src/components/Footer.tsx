@@ -6,6 +6,7 @@ const quickLinks = [
   { label: "About Dr. Jadhav", href: "/about" },
   { label: "Treatments", href: "/treatments" },
   { label: "FAQ", href: "/faq" },
+  { label: "Blog", href: "/blog" },
   { label: "Contact Us", href: "/contact" },
 ];
 

@@ -3,6 +3,9 @@
   RewriteEngine On
   RewriteBase /
 
+  # Old static site URLs
+  RewriteRule ^blog\.html$ /blog/ [R=301,L]
+
   # Canonical host: sunrisepileshospital.com (adjust if your domain differs)
   RewriteCond %{HTTP_HOST} ^www\.sunrisepileshospital\.com$ [NC]
   RewriteRule ^ https://sunrisepileshospital.com%{REQUEST_URI} [L,R=301]

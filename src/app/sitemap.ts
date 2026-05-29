@@ -1,10 +1,12 @@
 import type { MetadataRoute } from "next";
+import { blogPosts } from "@/lib/blog-posts";
+import { SITE_URL } from "@/lib/site";
 
 export const dynamic = "force-static";
 
-const baseUrl = "https://sunrisepileshospital.com";
-
 export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = SITE_URL;
+
   return [
     { url: baseUrl, lastModified: new Date(), changeFrequency: "weekly", priority: 1 },
     { url: `${baseUrl}/about`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
@@ -13,6 +15,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/treatments/fissure`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/treatments/fistula`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
     { url: `${baseUrl}/treatments/laser-surgery`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.8 },
+    { url: `${baseUrl}/blog`, lastModified: new Date(), changeFrequency: "weekly", priority: 0.8 },
+    ...blogPosts.map((post) => ({
+      url: `${baseUrl}/blog/${post.slug}`,
+      lastModified: new Date(),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+    })),
     { url: `${baseUrl}/faq`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     { url: `${baseUrl}/contact`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.7 },
     { url: `${baseUrl}/book-appointment`, lastModified: new Date(), changeFrequency: "monthly", priority: 0.9 },

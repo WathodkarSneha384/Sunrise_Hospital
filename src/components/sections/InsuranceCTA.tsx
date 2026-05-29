@@ -12,6 +12,7 @@ const insurers = [
   "United India",
   "Care Health",
   "Reliance Health",
+  "Shaan Medpay Capitals",
 ];
 
 export default function InsuranceCTA() {
@@ -22,7 +23,7 @@ export default function InsuranceCTA() {
       <section className="py-6 bg-[var(--section-alt)] overflow-hidden border-y border-slate-200">
         <RevealOnScroll>
           <p className="text-center text-[var(--primary)] font-bold text-[11px] uppercase tracking-widest mb-4">
-            Cashless Insurance Partners
+            Cashless / Reimbursement Partners
           </p>
         </RevealOnScroll>
         <div className="relative marquee-container">
