@@ -1,3 +1,6 @@
+/** Live site URL on Hostinger (used for SEO / redirects) */
+export const SITE_URL = "https://sunrisepileshospital.com";
+
 /** Bump when you replace public/images/logo.png so browsers fetch the new file */
 export const LOGO_VERSION = "5";
 

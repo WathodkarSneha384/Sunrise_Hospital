@@ -1,11 +1,15 @@
-# Hostinger / Apache — serve Next.js static export pages (e.g. /about/ -> /about/index.html)
+# Hostinger / Apache — canonical domain + Next.js static export
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
 
-  # Force HTTPS (uncomment after SSL is active in Hostinger)
-  # RewriteCond %{HTTPS} off
-  # RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+  # Canonical host: sunrisepileshospital.com (adjust if your domain differs)
+  RewriteCond %{HTTP_HOST} ^www\.sunrisepileshospital\.com$ [NC]
+  RewriteRule ^ https://sunrisepileshospital.com%{REQUEST_URI} [L,R=301]
+
+  # Force HTTPS after SSL is enabled in Hostinger
+  RewriteCond %{HTTPS} off
+  RewriteRule ^ https://sunrisepileshospital.com%{REQUEST_URI} [L,R=301]
 
   # If folder exists, serve it
   RewriteCond %{REQUEST_FILENAME} -d
