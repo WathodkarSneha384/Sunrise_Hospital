@@ -59,7 +59,7 @@ export default function InsuranceCTA() {
               eyebrow="Book Today"
               title="Ready to Live Without"
               highlight="Piles Pain?"
-              description="Advanced laser treatment · No cuts · No stitches · Go home the same day. Join 5,000+ patients who found permanent relief."
+              description="Advanced laser treatment · No stitches · Go home the same day. Join 5,000+ patients who found permanent relief."
               light
             />
           </RevealOnScroll>

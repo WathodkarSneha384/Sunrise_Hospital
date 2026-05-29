@@ -30,7 +30,7 @@ const treatmentCards = [
   },
   {
     title: "Laser Surgery",
-    desc: "No cuts, no stitches. 45-min daycare procedures.",
+    desc: "No stitches. 45-min daycare procedures.",
     href: "/treatments/laser-surgery",
     anchor: "#laser",
     image: "/Assset/img3.jpg",

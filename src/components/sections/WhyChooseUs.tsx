@@ -12,8 +12,8 @@ const reasons = [
     ),
   },
   {
-    title: "Zero Cuts · Zero Stitches",
-    description: "Advanced laser eliminates incisions. No blood loss, no sutures, no scarring.",
+    title: "No Stitches",
+    description: "Advanced laser technology. Minimal blood loss, no sutures, faster recovery.",
     icon: (
       <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={1.8}>
         <path strokeLinecap="round" strokeLinejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />

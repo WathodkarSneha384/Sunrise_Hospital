@@ -37,7 +37,7 @@ const testimonials = [
     location: "Baner, Pune",
     date: "December 2023",
     rating: 5,
-    text: "I was worried about the cost but they accept my health insurance. The treatment was done without any cuts or stitches. Dr. Satish Jadhav is very experienced and patient. Thank you team!",
+    text: "I was worried about the cost but they accept my health insurance. The treatment was done without stitches. Dr. Satish Jadhav is very experienced and patient. Thank you team!",
     initials: "AD",
     color: "from-purple-500 to-purple-700",
   },

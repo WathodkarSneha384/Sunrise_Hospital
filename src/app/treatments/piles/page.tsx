@@ -39,7 +39,7 @@ export default function PilesPage() {
         align="left"
         badge="Piles / Haemorrhoids"
         title="Painless Piles Treatment in Pune"
-        subtitle="Advanced laser treatment for all grades of piles — no cuts, no stitches, same-day discharge. 5000+ patients treated successfully."
+        subtitle="Advanced laser treatment for all grades of piles — no stitches, same-day discharge. 5000+ patients treated successfully."
       >
         <TreatmentHeroActions />
       </PageHero>
@@ -122,7 +122,7 @@ export default function PilesPage() {
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5 sm:gap-6">
               {[
-                { icon: "🔴", title: "No Cuts", desc: "Laser energy shrinks tissue without surgical incisions" },
+                { icon: "🔴", title: "Minimal Invasiveness", desc: "Laser energy shrinks tissue with a tiny entry point" },
                 { icon: "🩹", title: "No Stitches", desc: "Wound healing is natural with no sutures needed" },
                 { icon: "🏠", title: "Daycare", desc: "Go home the same day as the procedure" },
                 { icon: "⏱️", title: "45 Minutes", desc: "Most procedures completed in under an hour" },

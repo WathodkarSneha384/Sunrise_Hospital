@@ -142,7 +142,7 @@ const treatments = [
     tabLabel: "Laser Surgery",
     href: "/treatments/laser-surgery",
     badge: "Latest Technology",
-    tagline: "Precise, bloodless daycare procedures — no cuts, no stitches, go home the same day",
+    tagline: "Precise, bloodless daycare procedures — no stitches, go home the same day",
     image: null as string | null,
     theme: {
       tab: "bg-[#5ecfe6]",
@@ -171,7 +171,7 @@ const treatments = [
     goldStandard: null,
     prevention: [] as string[],
     laserBenefits: [
-      { title: "No Cuts, No Stitches", desc: "Laser seals tissue as it works — no open wounds or sutures" },
+      { title: "No Stitches", desc: "Laser seals tissue as it works — no open wounds or sutures" },
       { title: "45-Minute Procedure", desc: "Most laser procedures are completed under 45 minutes" },
       { title: "Same-Day Discharge", desc: "Go home within hours — no overnight hospital stay" },
       { title: "Minimal Blood Loss", desc: "Laser coagulates vessels instantly — virtually bloodless" },

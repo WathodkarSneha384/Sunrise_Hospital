@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     template: "%s | Sunrise Piles Hospital Pune",
   },
   description:
-    "Sunrise Piles Hospital – Advanced Laser Proctology Centre in Wakad, Pune. Expert treatment for Piles, Fissure & Fistula with laser surgery. No cuts, no stitches. 5000+ patients treated. NABH accredited. Call: +91 9096965217",
+    "Sunrise Piles Hospital – Advanced Laser Proctology Centre in Wakad, Pune. Expert treatment for Piles, Fissure & Fistula with laser surgery. No stitches. 5000+ patients treated. NABH accredited. Call: +91 9096965217",
   keywords: [
     "piles treatment Pune",
     "laser piles surgery Wakad",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
     siteName: "Sunrise Piles Hospital",
     title: "Sunrise Piles Hospital Pune | Best Piles Fissure Fistula Laser Treatment in Wakad, Pune",
     description:
-      "Expert Laser Treatment for Piles, Fissure & Fistula. NABH Accredited. 5000+ patients treated. Daycare procedures. No cuts, no stitches.",
+      "Expert Laser Treatment for Piles, Fissure & Fistula. NABH Accredited. 5000+ patients treated. Daycare procedures. No stitches.",
   },
   twitter: {
     card: "summary_large_image",

@@ -164,7 +164,7 @@ const articleSections: Record<string, BlogSection[]> = {
             },
             {
               title: "Laser Treatment (15–45 min)",
-              desc: "Performed under local or short anaesthesia. Laser fibre shrinks haemorrhoidal tissue — no cuts, no stitches.",
+              desc: "Performed under local or short anaesthesia. Laser fibre shrinks haemorrhoidal tissue — no stitches.",
             },
             {
               title: "Recovery & Observation",
@@ -503,8 +503,8 @@ const articleSections: Record<string, BlogSection[]> = {
           type: "steps",
           items: [
             {
-              title: "No Cuts, No Stitches",
-              desc: "Laser energy shrinks tissue without surgical incisions. No open wounds to heal.",
+              title: "No Stitches",
+              desc: "Laser energy shrinks tissue with minimal invasiveness. No open wounds to heal.",
             },
             {
               title: "Daycare Procedure",

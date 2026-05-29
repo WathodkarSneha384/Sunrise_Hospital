@@ -1,4 +1,6 @@
 # Hostinger / Apache — canonical domain + Next.js static export
+DirectoryIndex index.html
+
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteBase /
@@ -14,6 +16,10 @@
   RewriteCond %{HTTPS} off
   RewriteRule ^ https://sunrisepileshospital.com%{REQUEST_URI} [L,R=301]
 
+  # Never rewrite Next.js assets or static files
+  RewriteRule ^_next/ - [L]
+  RewriteRule \.(css|js|mjs|map|png|jpe?g|gif|webp|svg|ico|woff2?|txt|xml|html)$ - [L]
+
   # If folder exists, serve it
   RewriteCond %{REQUEST_FILENAME} -d
   RewriteRule ^ - [L]
@@ -23,6 +29,7 @@
   RewriteRule ^ - [L]
 
   # Fallback to directory index.html (trailingSlash export)
+  RewriteCond %{REQUEST_URI} !^/_next/
   RewriteRule ^(.+?)/?$ $1/index.html [L]
 </IfModule>
 

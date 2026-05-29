@@ -17,7 +17,7 @@ export default function LaserSurgeryPage() {
         align="left"
         badge="Advanced Laser Technology"
         title="Laser Proctology Surgery in Pune"
-        subtitle="State-of-the-art laser procedures for piles, fissure and fistula. No cuts, no stitches, go home the same day."
+        subtitle="State-of-the-art laser procedures for piles, fissure and fistula. No stitches, go home the same day."
       >
         <TreatmentHeroActions />
       </PageHero>
@@ -43,7 +43,7 @@ export default function LaserSurgeryPage() {
             <div className="grid grid-cols-2 gap-3 sm:gap-4">
               {[
                 { icon: "🩸", label: "Bloodless", desc: "Laser seals blood vessels instantly" },
-                { icon: "✂️", label: "No Incision", desc: "No surgical cuts or sutures" },
+                { icon: "✂️", label: "No Incision", desc: "No sutures required" },
                 { icon: "😌", label: "Less Pain", desc: "Minimal post-op discomfort" },
                 { icon: "⚡", label: "Precise", desc: "Targets only affected tissue" },
               ].map((item) => (
@@ -108,7 +108,7 @@ export default function LaserSurgeryPage() {
                   {[
                     ["Hospital Stay", "Daycare (same day)", "1–3 days admission"],
                     ["Pain Level", "Minimal", "Moderate to severe"],
-                    ["Cuts / Incisions", "None", "Surgical incisions required"],
+                    ["Incisions", "None", "Surgical incisions required"],
                     ["Stitches", "No stitches", "Sutures needed"],
                     ["Blood Loss", "Negligible", "Moderate bleeding"],
                     ["Recovery Time", "2–3 days", "2–4 weeks"],

@@ -6,7 +6,7 @@ import PageCTA from "@/components/PageCTA";
 export const metadata: Metadata = {
   title: "Treatments | Piles, Fissure & Fistula Laser Treatment in Pune",
   description:
-    "Advanced laser treatments for Piles, Fissure, and Fistula at Sunrise Piles Hospital, Wakad, Pune. Daycare procedures, no cuts, no stitches. Book today.",
+    "Advanced laser treatments for Piles, Fissure, and Fistula at Sunrise Piles Hospital, Wakad, Pune. Daycare procedures, no stitches. Book today.",
   alternates: { canonical: "https://sunrisepileshospital.com/treatments" },
 };
 
@@ -57,7 +57,7 @@ const treatments = [
     description:
       "Our state-of-the-art laser surgery suite enables precise, bloodless procedures for all anorectal conditions. No incisions, no stitches, minimal pain and rapid recovery.",
     highlights: [
-      "No cuts, no stitches",
+      "No stitches",
       "Bloodless procedure",
       "45-minute average time",
       "Return to work in 2–3 days",
