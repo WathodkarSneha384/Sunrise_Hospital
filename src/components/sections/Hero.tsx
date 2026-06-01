@@ -67,7 +67,6 @@ export default function Hero() {
 
             <p className="text-white/85 text-sm md:text-base leading-relaxed mb-4 max-w-lg">
               Painless laser daycare surgery at NABH-accredited Sunrise Piles Hospital.
-              Walk in and go home the <strong className="text-white">same day</strong> — no hospital stay.
             </p>
 
             <div className="flex flex-wrap gap-1.5 mb-4">
@@ -89,7 +88,7 @@ export default function Hero() {
                 <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                   <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
                 </svg>
-                Call Now — Free Advice
+                Call Now
               </a>
               <Link
                 href="/book-appointment"
