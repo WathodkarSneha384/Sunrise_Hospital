@@ -16,12 +16,12 @@ const treatments = [
     title: "Piles (Haemorrhoids) Treatment",
     href: "/treatments/piles",
     description:
-      "Comprehensive management of all grades of piles using advanced laser ablation, sclerotherapy, and Rubber Band Ligation (RBL). Our daycare approach ensures you are back home the same day.",
+      "Comprehensive management of all grades of piles using advanced laser ablation, sclerotherapy, and Rubber Band Ligation (RBL). Our outpatient approach focuses on comfort and faster recovery.",
     highlights: [
       "All grades (Grade 1–4) treated",
       "Laser ablation & sclerotherapy",
       "Rubber Band Ligation (RBL)",
-      "Same-day discharge",
+      "Outpatient care",
     ],
   },
   {
@@ -59,7 +59,7 @@ const treatments = [
     highlights: [
       "No stitches",
       "Bloodless procedure",
-      "45-minute average time",
+      "Quick recovery",
       "Return to work in 2–3 days",
     ],
   },

@@ -6,7 +6,7 @@ import SectionHeader from "@/components/SectionHeader";
 const treatmentCards = [
   {
     title: "Piles (Hemorrhoids)",
-    desc: "Laser & stapler surgery for all grades. Same-day discharge.",
+    desc: "Laser & stapler surgery for all grades. Expert outpatient care.",
     href: "/treatments/piles",
     anchor: "#piles",
     image: "/Pilse-Fissure,Fistula/piles.jpg",
@@ -30,7 +30,7 @@ const treatmentCards = [
   },
   {
     title: "Laser Surgery",
-    desc: "No stitches. 45-min daycare procedures.",
+    desc: "No stitches. Advanced laser procedures.",
     href: "/treatments/laser-surgery",
     anchor: "#laser",
     image: "/Assset/img3.jpg",

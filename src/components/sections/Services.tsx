@@ -131,7 +131,7 @@ const treatments = [
     goldStandard: {
       name: "Laser Fistulotomy (DLAFT)",
       note: "Considered one of the best surgical options for fistula in ano",
-      benefits: ["Very low recurrence rate (1–2%)", "Faster recovery — return to work in days", "No open wounds, no damage to sphincter", "Day-care — home same day"],
+      benefits: ["Very low recurrence rate (1–2%)", "Faster recovery — return to work in days", "No open wounds, no damage to sphincter", "Outpatient laser care"],
     },
     prevention: [] as string[],
   },
@@ -142,7 +142,7 @@ const treatments = [
     tabLabel: "Laser Surgery",
     href: "/treatments/laser-surgery",
     badge: "Latest Technology",
-    tagline: "Precise, bloodless daycare procedures — no stitches, go home the same day",
+    tagline: "Precise, bloodless laser procedures — no stitches, expert aftercare",
     image: null as string | null,
     theme: {
       tab: "bg-[#5ecfe6]",
@@ -156,7 +156,7 @@ const treatments = [
       sectionBg: "bg-[var(--section-alt)]",
     },
     whatIs:
-      "Advanced diode laser technology allows precise, bloodless procedures using focused light energy. Unlike traditional open surgery, laser procedures simultaneously cut, coagulate, and seal tissue — resulting in significantly less pain, bleeding, and recovery time. All our laser procedures are NABH-certified daycare surgeries.",
+      "Advanced diode laser technology allows precise, bloodless procedures using focused light energy. Unlike traditional open surgery, laser procedures simultaneously cut, coagulate, and seal tissue — resulting in significantly less pain, bleeding, and recovery time. All our laser procedures are NABH-certified outpatient surgeries.",
     types: [
       { name: "Laser Hemorrhoidectomy", icon: "🩸", description: "Laser excision for Grade 3–4 piles and thrombosed hemorrhoids. Minimal bleeding, faster healing vs. open hemorrhoidectomy." },
       { name: "Laser LIS (Fissure)", icon: "⚡", description: "Laser-assisted Lateral Internal Sphincterotomy for chronic fissure. Precise sphincter release, less bleeding, minimal post-op pain." },
@@ -172,14 +172,12 @@ const treatments = [
     prevention: [] as string[],
     laserBenefits: [
       { title: "No Stitches", desc: "Laser seals tissue as it works — no open wounds or sutures" },
-      { title: "45-Minute Procedure", desc: "Most laser procedures are completed under 45 minutes" },
-      { title: "Same-Day Discharge", desc: "Go home within hours — no overnight hospital stay" },
       { title: "Minimal Blood Loss", desc: "Laser coagulates vessels instantly — virtually bloodless" },
       { title: "Less Post-op Pain", desc: "Significantly less discomfort vs. open surgery" },
       { title: "Back in 2–3 Days", desc: "Return to desk work in 2–3 days, full recovery ~1 week" },
     ],
     comparison: [
-      { aspect: "Hospital Stay", traditional: "2–5 days", laser: "Same-day discharge" },
+      { aspect: "Hospital Stay", traditional: "2–5 days", laser: "Outpatient care" },
       { aspect: "Recovery Time", traditional: "4–6 weeks", laser: "2–3 days (desk work)" },
       { aspect: "Post-op Pain", traditional: "Significant", laser: "Minimal — oral tablets" },
       { aspect: "Bleeding", traditional: "Moderate to significant", laser: "Minimal to none" },
@@ -576,7 +574,7 @@ export default function Services() {
         <div className="max-w-2xl mx-auto px-4 sm:px-6">
           <h3 className="text-lg md:text-xl font-bold text-[var(--navy)] mb-1">Get the Right Treatment Today</h3>
           <p className="text-slate-500 text-sm mb-5">
-            NABH-certified laser surgery · Same-day discharge · Insurance accepted · 95%+ success rate
+            NABH-certified laser surgery · Insurance accepted · 95%+ success rate
           </p>
           <div className="flex flex-wrap justify-center gap-3">
             <a

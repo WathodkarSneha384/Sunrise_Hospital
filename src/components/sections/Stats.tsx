@@ -41,7 +41,7 @@ const statsData = [
   { target: 49, display: (n: number) => `${(n / 10).toFixed(1)} ★`, label: "Google Rating", sub: "200+ verified reviews" },
   { target: 95, display: (n: number) => `${n}%+`, label: "Success Rate", sub: "Laser procedures" },
   { target: 10, display: (n: number) => `${n}+`, label: "Years Experience", sub: "Specialist proctologist" },
-  { target: 45, display: (n: number) => `${n} min`, label: "Avg. Procedure", sub: "Daycare surgery" },
+  { target: 0, display: () => "Laser", label: "Advanced Care", sub: "Minimal invasiveness" },
   { target: 0, display: () => "NABH", label: "Accredited", sub: "Quality certified" },
 ];
 

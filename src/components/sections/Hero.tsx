@@ -66,7 +66,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-white/85 text-sm md:text-base leading-relaxed mb-4 max-w-lg">
-              Painless laser daycare surgery at NABH-accredited Sunrise Piles Hospital.
+              Painless laser surgery at NABH-accredited Sunrise Piles Hospital.
             </p>
 
             <div className="flex flex-wrap gap-1.5 mb-4">

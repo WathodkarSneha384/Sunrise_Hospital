@@ -6,7 +6,7 @@ import TreatmentHeroActions from "@/components/TreatmentHeroActions";
 export const metadata: Metadata = {
   title: "Laser Piles Surgery in Pune | Daycare Laser Proctology | Sunrise Piles Hospital",
   description:
-    "Best laser surgery for piles, fissure & fistula in Pune at Sunrise Piles Hospital, Wakad. Bloodless, no stitches, 45-minute daycare procedure. NABH accredited. Call +91 9096965217.",
+    "Best laser surgery for piles, fissure & fistula in Pune at Sunrise Piles Hospital, Wakad. Bloodless, no stitches, outpatient laser procedure. NABH accredited. Call +91 9096965217.",
   alternates: { canonical: "https://sunrisepileshospital.com/treatments/laser-surgery" },
 };
 
@@ -17,7 +17,7 @@ export default function LaserSurgeryPage() {
         align="left"
         badge="Advanced Laser Technology"
         title="Laser Proctology Surgery in Pune"
-        subtitle="State-of-the-art laser procedures for piles, fissure and fistula. No stitches, go home the same day."
+        subtitle="State-of-the-art laser procedures for piles, fissure and fistula. No stitches, expert outpatient care."
       >
         <TreatmentHeroActions />
       </PageHero>
@@ -35,7 +35,7 @@ export default function LaserSurgeryPage() {
                 </p>
                 <p>
                   This results in procedures that are virtually bloodless, require no stitches, cause
-                  minimal post-operative pain, and allow for same-day discharge — a major advantage
+                  minimal post-operative pain, and faster recovery — a major advantage
                   over conventional surgery.
                 </p>
               </div>
@@ -58,15 +58,15 @@ export default function LaserSurgeryPage() {
 
           <div>
             <h2 className="text-2xl sm:text-3xl font-bold text-heading mb-6 sm:mb-8 text-center">
-              Your Daycare Journey
+              Your Treatment Journey
             </h2>
             <div className="relative space-y-6">
               <div className="hidden md:block absolute left-1/2 top-0 bottom-0 w-0.5 bg-[var(--border)] -translate-x-1/2" />
               {[
                 { step: "1", time: "Day 0 – Morning", title: "Arrival & Pre-op", desc: "Arrive at the clinic. Pre-operative assessment, consent and preparation are done." },
-                { step: "2", time: "Day 0 – Mid Morning", title: "Procedure (45 min)", desc: "Laser procedure performed under local/short general anaesthesia. Completely painless." },
-                { step: "3", time: "Day 0 – Afternoon", title: "Recovery", desc: "Short observation period of 2–3 hours. Post-operative instructions given." },
-                { step: "4", time: "Day 0 – Evening", title: "Discharge", desc: "Go home the same day! Most patients are discharged within 4–6 hours of arrival." },
+                { step: "2", time: "Day 0 – Mid Morning", title: "Laser Procedure", desc: "Laser procedure performed under local/short general anaesthesia. Completely painless." },
+                { step: "3", time: "Day 0 – Afternoon", title: "Recovery", desc: "Short observation period. Post-operative instructions given." },
+                { step: "4", time: "Day 0 – Evening", title: "Aftercare", desc: "Personalised recovery guidance and follow-up support from our team." },
                 { step: "5", time: "Day 2–3", title: "Back to Work", desc: "Return to normal activities and desk work. Avoid strenuous activity for 1 week." },
               ].map((item, i) => (
                 <div
@@ -106,14 +106,14 @@ export default function LaserSurgeryPage() {
                 </thead>
                 <tbody className="divide-y divide-slate-100">
                   {[
-                    ["Hospital Stay", "Daycare (same day)", "1–3 days admission"],
+                    ["Hospital Stay", "Outpatient care", "1–3 days admission"],
                     ["Pain Level", "Minimal", "Moderate to severe"],
                     ["Incisions", "None", "Surgical incisions required"],
                     ["Stitches", "No stitches", "Sutures needed"],
                     ["Blood Loss", "Negligible", "Moderate bleeding"],
                     ["Recovery Time", "2–3 days", "2–4 weeks"],
                     ["Return to Work", "2–3 days", "2–3 weeks"],
-                    ["Procedure Duration", "~45 minutes", "60–90 minutes"],
+                    ["Procedure Duration", "Varies by case", "60–90 minutes"],
                   ].map(([feature, laser, trad], i) => (
                     <tr key={feature} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
                       <td className="px-3 sm:px-6 py-3 font-medium text-slate-700">{feature}</td>

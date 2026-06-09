@@ -7,7 +7,7 @@ const laserVsOpenTable = {
     ["Recovery Time", "2–3 days", "2–4 weeks"],
     ["Pain Level", "Minimal", "Moderate to severe"],
     ["Blood Loss", "Negligible", "Moderate"],
-    ["Hospital Stay", "Daycare (same day)", "1–3 days admission"],
+    ["Hospital Stay", "Outpatient care", "1–3 days admission"],
     ["Scarring / Stitches", "None", "Sutures required"],
     ["Return to Work", "2–3 days", "2–3 weeks"],
     ["Recurrence Risk", "Low with proper care", "Moderate"],
@@ -37,7 +37,7 @@ const articleSections: Record<string, BlogSection[]> = {
         {
           type: "callout",
           variant: "info",
-          text: "At Sunrise Piles Hospital, Wakad, Dr. Satish Jadhav has treated 5,000+ patients using advanced laser techniques — with a 95%+ success rate and daycare discharge.",
+          text: "At Sunrise Piles Hospital, Wakad, Dr. Satish Jadhav has treated 5,000+ patients using advanced laser techniques — with a 95%+ success rate and expert outpatient care.",
         },
         {
           type: "paragraph",
@@ -139,7 +139,7 @@ const articleSections: Record<string, BlogSection[]> = {
         {
           type: "callout",
           variant: "info",
-          text: "Laser surgery is bloodless, stitch-free, and allows same-day discharge — which is why thousands of patients in Pune choose laser treatment at Sunrise Piles Hospital.",
+          text: "Laser surgery is bloodless, stitch-free, and supports faster recovery — which is why thousands of patients in Pune choose laser treatment at Sunrise Piles Hospital.",
         },
       ],
     },
@@ -149,7 +149,7 @@ const articleSections: Record<string, BlogSection[]> = {
       blocks: [
         {
           type: "paragraph",
-          text: "Our daycare laser piles procedure is designed for maximum comfort and minimum disruption to your daily life. Here is what to expect:",
+          text: "Our outpatient laser piles procedure is designed for maximum comfort and minimum disruption to your daily life. Here is what to expect:",
         },
         {
           type: "steps",
@@ -163,7 +163,7 @@ const articleSections: Record<string, BlogSection[]> = {
               desc: "Light fasting and bowel preparation as advised. Our team explains every step clearly.",
             },
             {
-              title: "Laser Treatment (15–45 min)",
+              title: "Laser Treatment",
               desc: "Performed under local or short anaesthesia. Laser fibre shrinks haemorrhoidal tissue — no stitches.",
             },
             {
@@ -171,8 +171,8 @@ const articleSections: Record<string, BlogSection[]> = {
               desc: "Short rest period of 2–3 hours at the clinic with post-operative instructions.",
             },
             {
-              title: "Same-Day Discharge",
-              desc: "Go home the same day. Most patients resume desk work within 2–3 days.",
+              title: "Recovery & Follow-up",
+              desc: "Personalised aftercare. Most patients resume desk work within 2–3 days.",
             },
             {
               title: "Follow-Up Care",
@@ -507,8 +507,8 @@ const articleSections: Record<string, BlogSection[]> = {
               desc: "Laser energy shrinks tissue with minimal invasiveness. No open wounds to heal.",
             },
             {
-              title: "Daycare Procedure",
-              desc: "Completed in 15–45 minutes. Go home the same day — no overnight stay.",
+              title: "Outpatient Procedure",
+              desc: "Minimally invasive laser treatment with expert monitoring and support.",
             },
             {
               title: "Minimal Blood Loss",
@@ -697,7 +697,7 @@ const articleSections: Record<string, BlogSection[]> = {
         {
           type: "steps",
           items: [
-            { title: "Day 0", desc: "Procedure completed. Discharge same day with instructions." },
+            { title: "Day 0", desc: "Procedure completed with personalised recovery instructions." },
             { title: "Days 1–2", desc: "Mild discomfort. Soft diet, sitz baths, light walking." },
             { title: "Days 2–3", desc: "Most patients return to desk work." },
             { title: "Week 1", desc: "Avoid heavy lifting. Continue fibre-rich diet." },
@@ -764,7 +764,7 @@ export const blogPosts: BlogPost[] = [
     authorTitle: "MD, FPC, CCKS — Proctologist & Laser Surgeon",
     title: "5 Reasons Why Laser Surgery Is Better Than Open Surgery for Piles",
     excerpt:
-      "Daycare procedure, minimal blood loss, zero stitches, and return to work in 2–3 days — explore why thousands of patients in Pune prefer laser surgery at Sunrise Piles Hospital.",
+      "Outpatient laser procedure, minimal blood loss, zero stitches, and return to work in 2–3 days — explore why thousands of patients in Pune prefer laser surgery at Sunrise Piles Hospital.",
     readTime: "8 min read",
     sections: articleSections["laser-surgery-vs-open-surgery"],
   },

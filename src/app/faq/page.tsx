@@ -35,7 +35,7 @@ const faqs = [
       },
       {
         q: "How long does the laser procedure take?",
-        a: "Most procedures are completed within 30–45 minutes. You can go home the same day (daycare procedure) within 4–6 hours of arrival.",
+        a: "Procedure time varies by condition and grade. Dr. Jadhav will explain what to expect during your consultation, including preparation, the procedure, and recovery guidance.",
       },
       {
         q: "What is the recovery time after laser piles surgery?",

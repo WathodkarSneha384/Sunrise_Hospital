@@ -26,7 +26,7 @@ export default function BookAppointmentPage() {
                 {[
                   { icon: "⚡", title: "Same-Day Appointments", desc: "We usually have slots available on the same day you call." },
                   { icon: "💬", title: "Instant WhatsApp Confirmation", desc: "Your booking request goes straight to our team via WhatsApp." },
-                  { icon: "🏥", title: "Daycare Procedures", desc: "Come in the morning, go home by evening — no overnight stay." },
+                  { icon: "🏥", title: "Outpatient Procedures", desc: "Minimally invasive laser treatment with expert care and follow-up." },
                   { icon: "💳", title: "Insurance Handled", desc: "Our team will guide you through cashless insurance claims." },
                   { icon: "🔒", title: "Confidential", desc: "Your details and medical information are completely private." },
                 ].map((item) => (
